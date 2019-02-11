@@ -1,0 +1,23 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Defining a variable
+
+h1 {
+  color: red;
+}
+
+body {
+  background: #F4F4F4; // Using this variable
+  padding: 20px;
+}
+
+
+a {
+  color: black;
+  &:hover {
+    color: grey;
+    text-decoration: none;
+  }
+}
